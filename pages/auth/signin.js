@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-typos */
+/* eslint-disable @next/next/no-img-element */
 import { getProviders, signIn as signIntoProvider } from "next-auth/react";
 import Header from "../../components/Header";
 
@@ -7,7 +9,7 @@ function signIn({ providers }) {
       <Header />
       <div className="flex flex-col items-center justify-center min-h-screen py-2 -mt-56 px-14 text-center pt-60">
         <img
-          className="w-80"
+          className="w-70"
           src="/images/instagram.png"
           alt=""
         />
