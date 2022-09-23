@@ -9,7 +9,7 @@ function signin({ providers }) {
       <Header />
       <div className="flex flex-col items-center justify-center min-h-screen py-2 -mt-56 px-14 text-center pt-60">
         <img
-          className="w-70"
+          className="w-50"
           src="/images/instagram.png"
           alt=""
         />
